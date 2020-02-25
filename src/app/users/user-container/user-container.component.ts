@@ -14,7 +14,7 @@ export class UserContainerComponent implements OnInit {
 
   ngOnInit(): void {
     this.currentUser = new UserModel()
-   // console.log("User Container Init")
+   console.log("User Container Init")
   }
 
   saveUserData(emailValue:string,userNameValue:string)
