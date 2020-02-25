@@ -1,4 +1,4 @@
-<div class="user-item">
+<!-- div class="user-item">
     <div>
       id:{{currentUser.id}}
     </div>
@@ -13,5 +13,12 @@
     <input type = "text" placeholder = "email" [value] = "currentUser.email" #nameInput>
 
     <button (click) = "saveUserData(nameInput.value, emailInput.value)">Save</button>
+  </div>-->
+  <div>
+    <ul>
+      <li *ngFor="let user of users">
+           {{user.id}}
+      </li>
+    </ul>
   </div>
   
